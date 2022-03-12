@@ -63,7 +63,7 @@ const userController = {
 
 
 
-    deleteThought({ params }, res) {
+    deleteUser({ params }, res) {
       
         User.findOneAndDelete({ _id: params.id })
         .then(dbUserData => {
@@ -91,7 +91,7 @@ const userController = {
 
 
 
-    thisAddFriend({ params }, res) {
+    addFriend({ params }, res) {
         User.findOneAndUpdate(
             { _id: params.userId },
             { $addToSet: { friends: params.friendId } },

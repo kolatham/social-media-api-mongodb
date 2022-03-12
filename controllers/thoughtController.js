@@ -1,5 +1,5 @@
 const { User, Thought, Reaction} = ('../models');
-const thought = {
+const thoughtController = {
 
 
 
