@@ -35,6 +35,6 @@ You can find this project at my [![repo](https://github.com/kolatham/social-medi
 
 ## 🔗 Links
 [![repo](https://github.com/kolatham/social-media-api-mongodb)](https://github.com/kolatham/social-media-api-mongodb)
-[![video](https://drive.google.com/file/d/1FBTZnlRBwhLNisx0-l8Yujr89d0ivCWd/view](https://drive.google.com/file/d/1FBTZnlRBwhLNisx0-l8Yujr89d0ivCWd/view)
+[![video](https://drive.google.com/file/d/1FBTZnlRBwhLNisx0-l8Yujr89d0ivCWd/view)](https://drive.google.com/file/d/1FBTZnlRBwhLNisx0-l8Yujr89d0ivCWd/view)
 [![video](https://drive.google.com/file/d/1FBTZnlRBwhLNisx0-l8Yujr89d0ivCWd/view)](https://drive.google.com/file/d/1FBTZnlRBwhLNisx0-l8Yujr89d0ivCWd/view)
 
