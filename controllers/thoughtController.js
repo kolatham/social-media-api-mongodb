@@ -1,11 +1,11 @@
-const { User, Thought, Reaction} = ('../models');
+const { User, Thought} = require ('../models');
 const thoughtController = {
 
 
 
     getAllThoughts(req, res) {
         Thought.find({})
-        .populate({ path: 'reaction', select: '-__v'})
+        .populate('reactions')
         .select('-__v')
         .then(dbThoughtData => res.json(dbThoughtData))
         .catch(err => {
@@ -17,7 +17,7 @@ const thoughtController = {
 
     getThoughtById({ params }, res) {
         Thought.findOne({ _id: params.id })
-        .populate({ path: 'reactions', select: '-__v' })
+        .populate('reactions')
         .select('-__v')
         .then(dbThoughtData => {
             if (!dbThoughtData) {
@@ -35,6 +35,7 @@ const thoughtController = {
 
 
     createThought({ body }, res) {
+        console.log(body)
         Thought.create(body)
         .then(dbThoughtData => {
             User.findOneAndUpdate(
